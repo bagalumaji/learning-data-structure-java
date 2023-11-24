@@ -1,5 +1,6 @@
 package com.bagal.searching;
 
+
 public class BinarySearch {
     public static int searchElementByUsingBinarySearch(int [] arr,int value){
         int index=-1;
