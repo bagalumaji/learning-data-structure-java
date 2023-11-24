@@ -1,4 +1,4 @@
-package com.bagal;
+package com.bagal.tests;
 
 import com.bagal.sorting.SelectionSort;
 
