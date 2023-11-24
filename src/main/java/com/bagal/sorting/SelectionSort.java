@@ -2,7 +2,7 @@ package com.bagal.sorting;
 
 import java.util.List;
 
-public class SelectionSortCollection {
+public class SelectionSort {
     public static List<Integer> sortValuesByUsingSelectionSort(List<Integer> list){
         for (int i = 0; i < list.size(); i++) {
             int min = list.get(i);
