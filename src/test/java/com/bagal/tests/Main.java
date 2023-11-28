@@ -1,13 +1,11 @@
 package com.bagal.tests;
 
-import com.bagal.sorting.SelectionSort;
-
-import java.util.Arrays;
-import java.util.List;
+import static com.bagal.searching.BinarySearch.searchElementByUsingBinarySearch;
 
 public class Main {
     public static void main(String[] args) {
-        List<Integer> list = Arrays.asList(2,1,5,4,3);
-        System.out.println(SelectionSort.sortValuesByUsingSelectionSort(list));
+
+        int [] arr = {1,2,3,4,5,6};
+        System.out.println("searchElementByUsingBinarySearch(arr,4) = " + searchElementByUsingBinarySearch(arr, 5));
     }
 }
